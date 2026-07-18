@@ -1,0 +1,21 @@
+topics:
+  -
+    topic: /odom
+    type: nav_msgs/msg/Odometry 
+    queue_size: 10
+  - 
+    topic: /scan
+    type: sensor_msgs/msg/LaserScan
+    queue_size: 10
+  -
+    topic: /cmd_vel
+    type: geometry_msgs/msg/Twist
+    queue_size: 10
+  -
+    topic: /tf
+    type: tf2_msgs/msg/TFMessage
+    queue_size: 100
+ # -
+  #  topic: /tf_static
+   # type: tf2_msgs/TFMessage
+    #queue_size: 100
